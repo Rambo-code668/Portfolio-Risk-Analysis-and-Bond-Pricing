@@ -110,4 +110,4 @@ README.md
 **Runbo Ye**  
 Senior @ University of Michigan | Majoring in Financial Mathematics & Data Science  
 Focused on Quantitative Finance, Risk Modeling, and Fixed Income Analytics  
-📫 [LinkedIn](https://www.linkedin.com/in/runbo-ye) | 🌐 GitHub: `Rambo-code668`
+📫 [LinkedIn](https://www.linkedin.com/in/runboye/) | 🌐 GitHub: `Rambo-code668`
