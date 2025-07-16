@@ -99,7 +99,7 @@ This work bridges theory with practice in bond pricing and fixed-income risk mod
 ```
 /PortfolioRiskAnalysis/             ← Project 1: Equity VaR and Risk Evaluation
 /FixedIncomeNonParametricLibrary/  ← Project 2: Non-Parametric Fixed Income Risk
-/BondPricingSimulation/            ← Project 3: Bond Pricing & Factor Models
+/Bond Risk Evaluation/            ← Project 3: Bond Pricing & Factor Models
 README.md
 ```
 
