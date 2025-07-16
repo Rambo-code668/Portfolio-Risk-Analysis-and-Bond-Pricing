@@ -56,39 +56,39 @@ Develop a Python module for estimating non-parametric risk measures—VaR, ES, E
 
 ---
 
-## 📌 Project 3: Bond Pricing via Simulation and Factor Modeling
+## 📌 Project 3: Interest Rate Risk Assessment and Bond Pricing
 
-**Objective:**  
-Implement and compare various bond pricing models using Monte Carlo simulations, interest rate factor models, and credit spread modeling.
+**Objective:**
+Build a robust framework for pricing fixed-income securities and assessing their exposure to interest rate risk using both analytical and simulation-based methods.
 
-**Techniques Covered:**
-- Short-rate models and term structure simulation
-- Bond price sensitivity to macroeconomic and yield curve factors
-- Yield-to-Maturity (YTM), Duration, and Convexity analysis
-- Credit risk adjustment using empirical spreads
-- Risk-neutral pricing of defaultable bonds
-- Visualization of yield curves and forward rates
+**Core Methods:**
+	•	Bond pricing for both coupon and zero-coupon instruments using interpolated yield curves
+	•	Yield-to-Maturity (YTM) solved via Newton’s method
+	•	Duration metrics: Macaulay and Modified Duration
+	•	Value-at-Risk (VaR) & Expected Shortfall (ES) via:
+	•	Modified Duration Mapping with volatility estimation (EWMA, GARCH, Simple)
+	•	Historical Simulation with spline-interpolated yield curve shocks
+	•	Risk decomposition across time decay and yield movement
 
-🧠 *This module emphasizes dynamic pricing of fixed-income securities and builds intuition for both credit and interest rate risk.*
+🧠 This project highlights essential techniques for fixed-income valuation, duration-based risk mapping, and historical stress testing of bond portfolios.
 
----
+⸻
 
-## 🧩 Technical Stack
+**🧩 Technical Stack**
+	•	Python 3.10+
+	•	Libraries: numpy, pandas, matplotlib, scipy, arch, statsmodels
+	•	Techniques: Convexity-adjusted analytics, time-series modeling, spline interpolation
+	•	Tools: Jupyter Notebooks, Git version control
 
-- Python 3.10+
-- Libraries: `numpy`, `pandas`, `scipy`, `matplotlib`, `statsmodels`, `yfinance`, `arch`
-- Tools: Jupyter Notebooks, Object-Oriented Programming, Git
+⸻
 
----
+**🔍 Why This Matters**
 
-## 🔍 Why This Matters
-
-This repository demonstrates hands-on proficiency in risk quantification, fixed-income modeling, and simulation techniques. Skills are applicable to:
-
-- Quantitative Risk & Research Roles (Buy-side / Sell-side)
-- Fixed Income Strategy & Analytics
-- Credit Portfolio Risk Management
-- Structured Product Pricing
+This work bridges theory with practice in bond pricing and fixed-income risk modeling. It’s especially relevant for:
+	•	Fixed-Income Trading & Quantitative Strategy
+	•	Risk Management (IRRBB, VaR, Stress Testing)
+	•	Sell-Side Quantitative Research & Credit Structuring
+	•	Portfolio Risk Analytics for Institutional Investors
 
 📬 *Reach out on LinkedIn for collaboration or conversation in quantitative finance.*
 
