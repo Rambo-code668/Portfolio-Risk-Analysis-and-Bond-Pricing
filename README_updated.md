@@ -62,33 +62,33 @@ Develop a Python module for estimating non-parametric risk measures—VaR, ES, E
 Build a robust framework for pricing fixed-income securities and assessing their exposure to interest rate risk using both analytical and simulation-based methods.
 
 **Core Methods:**
-	•	Bond pricing for both coupon and zero-coupon instruments using interpolated yield curves
-	•	Yield-to-Maturity (YTM) solved via Newton’s method
-	•	Duration metrics: Macaulay and Modified Duration
-	•	Value-at-Risk (VaR) & Expected Shortfall (ES) via:
-	•	Modified Duration Mapping with volatility estimation (EWMA, GARCH, Simple)
-	•	Historical Simulation with spline-interpolated yield curve shocks
-	•	Risk decomposition across time decay and yield movement
+- Bond pricing for both coupon and zero-coupon instruments using interpolated yield curves
+- Yield-to-Maturity (YTM) solved via Newton’s method
+- Duration metrics: Macaulay and Modified Duration
+- Value-at-Risk (VaR) & Expected Shortfall (ES) via:
+  - Modified Duration Mapping with volatility estimation (EWMA, GARCH, Simple)
+  - Historical Simulation with spline-interpolated yield curve shocks
+- Risk decomposition across time decay and yield movement
 
 🧠 This project highlights essential techniques for fixed-income valuation, duration-based risk mapping, and historical stress testing of bond portfolios.
 
 ⸻
 
 **🧩 Technical Stack**
-	•	Python 3.10+
-	•	Libraries: numpy, pandas, matplotlib, scipy, arch, statsmodels
-	•	Techniques: Convexity-adjusted analytics, time-series modeling, spline interpolation
-	•	Tools: Jupyter Notebooks, Git version control
+- Python 3.10+
+- Libraries: numpy, pandas, matplotlib, scipy, arch, statsmodels
+- Techniques: Convexity-adjusted analytics, time-series modeling, spline interpolation
+- Tools: Jupyter Notebooks, Git version control
 
 ⸻
 
 **🔍 Why This Matters**
 
 This work bridges theory with practice in bond pricing and fixed-income risk modeling. It’s especially relevant for:
-	•	Fixed-Income Trading & Quantitative Strategy
-	•	Risk Management (IRRBB, VaR, Stress Testing)
-	•	Sell-Side Quantitative Research & Credit Structuring
-	•	Portfolio Risk Analytics for Institutional Investors
+- Fixed-Income Trading & Quantitative Strategy
+- Risk Management (IRRBB, VaR, Stress Testing)
+- Sell-Side Quantitative Research & Credit Structuring
+- Portfolio Risk Analytics for Institutional Investors
 
 📬 *Reach out on LinkedIn for collaboration or conversation in quantitative finance.*
 
